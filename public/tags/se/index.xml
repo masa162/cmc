@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SE on cmc</title>
+    <link>//localhost:1313/tags/se/</link>
+    <description>Recent content in SE on cmc</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="//localhost:1313/tags/se/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>トーコ</title>
+      <link>//localhost:1313/blue-moon-madness/characters/toko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blue-moon-madness/characters/toko/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://imagedelivery.net/wdR9enbrkaPsEgUtgFORrw/afeceb1b-2345-4ecc-82aa-42b59f3d3c00/public&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;キャラクター概要&#34;&gt;キャラクター概要&lt;a class=&#34;anchor&#34; href=&#34;#%e3%82%ad%e3%83%a3%e3%83%a9%e3%82%af%e3%82%bf%e3%83%bc%e6%a6%82%e8%a6%81&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;26歳・上智大→フリーランス クラウドインフラ &amp;amp; IoT エンジニア（在宅主体）&#xA;blue moon：コミュ障ゆえの「月に吠えるだけ」感&lt;/li&gt;&#xA;&lt;li&gt;サウナでだけ人と会話できる“ゆらぎ”を持つ（蒸気がカーテン代わり）&lt;/li&gt;&#xA;&lt;li&gt;“現実より CLI の方が会話しやすい”という持論&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;性格&#34;&gt;性格&lt;a class=&#34;anchor&#34; href=&#34;#%e6%80%a7%e6%a0%bc&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;内向的で、他人とのコミュニケーションに強い苦手意識を持つ。特に現実世界での対面コミュニケーションは、彼女にとって予測不能なエラーが頻発する「仕様が不安定なシステム」のように感じられる。&lt;/p&gt;&#xA;&lt;p&gt;一方で、CLIやコードのように、ルールが明確で論理的な世界には深い安心感を覚える。自分の思考や感情を整理し、表現すること自体が苦手なわけではなく、あくまでインターフェース（対人スキル）に問題を抱えているタイプ。&lt;/p&gt;&#xA;&lt;p&gt;根は真面目で探究心が強いが、その情熱はもっぱら技術的な興味に向けられる。サウナのような特殊な環境でなければ心を開けない不器用さの裏返しとして、人との繋がりに対する密かな憧れも持っている。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

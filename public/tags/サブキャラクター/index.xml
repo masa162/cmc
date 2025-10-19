@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>サブキャラクター on cmc</title>
-    <link>/tags/%E3%82%B5%E3%83%96%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/</link>
+    <link>//localhost:1313/tags/%E3%82%B5%E3%83%96%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/</link>
     <description>Recent content in サブキャラクター on cmc</description>
     <generator>Hugo</generator>
     <language>ja</language>
-    <atom:link href="/tags/%E3%82%B5%E3%83%96%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/%E3%82%B5%E3%83%96%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ルナ</title>
-      <link>/blue-moon-madness/characters/luna/</link>
+      <title>父（和歌山）</title>
+      <link>//localhost:1313/blue-moon-madness/characters/%E7%88%B6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/blue-moon-madness/characters/luna/</guid>
-      <description>&lt;h2 id=&#34;キャラクター概要&#34;&gt;キャラクター概要&lt;a class=&#34;anchor&#34; href=&#34;#%e3%82%ad%e3%83%a3%e3%83%a9%e3%82%af%e3%82%bf%e3%83%bc%e6%a6%82%e8%a6%81&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;月の神殿に仕える見習い魔法使い。&#xA;主人公を導く重要な役割を担う。&lt;/p&gt;&#xA;&lt;figure class=&#34;character-image&#34;&gt;&lt;img src=&#34;/blue-moon-madness/images/luna_v1.png&#34;&#xA;    alt=&#34;ルナのキャラクターデザイン&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;ルナの初期デザイン案&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h2 id=&#34;性格&#34;&gt;性格&lt;a class=&#34;anchor&#34; href=&#34;#%e6%80%a7%e6%a0%bc&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;普段は控えめだが、芯が強く、困っている人を見ると放っておけない。&#xA;魔法の才能は高いが、まだ未熟な部分も多い。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;../images/luna_v_01.jpg&#34; alt=&#34;alt text&#34; /&gt;&lt;/p&gt;</description>
+      <guid>//localhost:1313/blue-moon-madness/characters/%E7%88%B6/</guid>
+      <description>&lt;h2 id=&#34;キャラクター概要&#34;&gt;キャラクター概要&lt;a class=&#34;anchor&#34; href=&#34;#%e3%82%ad%e3%83%a3%e3%83%a9%e3%82%af%e3%82%bf%e3%83%bc%e6%a6%82%e8%a6%81&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;ローカル役所勤務。ズレた IT リテラシー発言でギャグ要員&lt;/li&gt;&#xA;&lt;li&gt;田舎と都会の価値観ギャップを示すメッセンジャー&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;性格&#34;&gt;性格&lt;a class=&#34;anchor&#34; href=&#34;#%e6%80%a7%e6%a0%bc&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;穏やかで優しいが、ITに対する理解度は低い。トーコとは対照的な価値観を持ち、無意識にトーコを困惑させたり、笑いを誘ったりする存在。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

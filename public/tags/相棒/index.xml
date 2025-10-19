@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>相棒 on cmc</title>
+    <link>//localhost:1313/tags/%E7%9B%B8%E6%A3%92/</link>
+    <description>Recent content in 相棒 on cmc</description>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <atom:link href="//localhost:1313/tags/%E7%9B%B8%E6%A3%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Johny</title>
+      <link>//localhost:1313/blue-moon-madness/characters/%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/blue-moon-madness/characters/%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/</guid>
+      <description>&lt;h2 id=&#34;キャラクター概要&#34;&gt;キャラクター概要&lt;a class=&#34;anchor&#34; href=&#34;#%e3%82%ad%e3%83%a3%e3%83%a9%e3%82%af%e3%82%bf%e3%83%bc%e6%a6%82%e8%a6%81&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;クリックすると「キュッ」と鳴く、Bluetooth 経由で音声 I/O&lt;/li&gt;&#xA;&lt;li&gt;トーコの“外部脳＆通訳”として機能&lt;/li&gt;&#xA;&lt;li&gt;グッズ化しやすいデザイン（マネタイズ要素）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;性格&#34;&gt;性格&lt;a class=&#34;anchor&#34; href=&#34;#%e6%80%a7%e6%a0%bc&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;トーコの思考を読み取り、適切なタイミングでサポートする忠実な相棒。機械的ながらも、どこか人間味のある愛らしい仕草を見せる。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
