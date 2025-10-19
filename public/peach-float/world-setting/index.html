@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="1. 世界観（AL21 年表＆大気水資源経済）# 時代区分 : AL21─After Lost 21st Century（2070年代前半）
+座標 : 北米大陸中部・旧州間道路沿い。かつて“コーンベルト”と呼ばれた平原が砂漠化した辺縁。
+環境変化 : 平均気温 &#43;2.5 ℃／酸素濃度 –3 %／可視距離を奪う黄砂と光化学スモッグ。
+資源経済 : 水と清浄空気が世界最上位コモディティ。正規流通を寡占する“Air Bank”“Hydro Company” vs. 地域独自通貨 Peach‑coin（水0.5 ℓ相当）。
+テクノロジーレベル : 衛星量子通信・ドローン物流などハイテクと、手作業のスクラップ再生が混植する“サビ色ソーラーパンク”。
+キーコンセプト# ロストテクノロジーの発掘と再利用 資源をめぐる 目に見えない階級戦 “何も起こらない場&#34;こそが営みを支えるステージ 砂と錆とピーチ・クリームソーダの 色彩コントラスト 2. 主要ロケーション# Peach Float Hub# 4基のガスベイ（メタン改質ガス／合成油） ウォーターバルブ兼パイプオルガン状給水塔 24hダイナー（名物 Peach Float &amp; “再生油ジョルトポテト”） コンビニ: 80‑90年代日本カルチャーのごった煮POP（ガチャ筐体、ひらがなロゴ缶ジュース） 周辺ランドマーク# 朽ちた給電風車群 “Broken Farm” 地下熱交換井戸 “Dragonbreath Hole” スクラップヤード “Coyote Hill” 3. 視覚モチーフ &amp; 参考資料# カテゴリ 作品／資料 用途メモ 美術 Edward Hopper「Gas」 / Moebius 作品 荒涼感＋人工灯の孤独 映画 『Mad Max: Fury Road』 / 『Paris, Texas』 サビ色×ネオンサインの対比 文学 Paolo Bacigalupi『The Water Knife』 / Edward Abbey『Desert Solitaire』 乾燥地帯と水資源の物語 日本文化 昭和コンビニ（ローソン初期内装） / 『ドラえもん』秘密道具パロ ノスタルジー×SF 4. 主要キャラクター# Sara Ortez（サラ）# 25 歳・女性／身長 167 cm 都市生まれ。高1夏に家出同然でPeach Floatへ住み込み、10年目。 スキル: DIYメカ修繕、射撃、旧世代アナログレコード収集。 アーク: “動かず世界を待つ”→“世界へ踏み出す”。大学進学の悩みが軸。 A.I.D.A（アイダ）# 型式 MX‑11 汎用アンドロイド／外装マットホワイト＋手描き値札。 自我≒低く「タスク完了＝充足」。サラとの対話ログを機に“疑問”を学習。 Noah Greaves（ノア）# 45 歳・男性／元地熱試掘エンジニア→起業家→軌道居住民。 5年前に店をサラへ譲渡し軌道上アパートへ。作中は手紙のみ登場、だが思想と技術メモが伏線。 （※他: 酔っ払いチェス王“Rook”、用心棒“Bulk”、配送人“Wynn” 等）
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="/peach-float/world-setting/">
+  <meta property="og:site_name" content="cmc">
+  <meta property="og:title" content="Peach Float - 全体設計書">
+  <meta property="og:description" content="1. 世界観（AL21 年表＆大気水資源経済）# 時代区分 : AL21─After Lost 21st Century（2070年代前半）
+座標 : 北米大陸中部・旧州間道路沿い。かつて“コーンベルト”と呼ばれた平原が砂漠化した辺縁。
+環境変化 : 平均気温 &#43;2.5 ℃／酸素濃度 –3 %／可視距離を奪う黄砂と光化学スモッグ。
+資源経済 : 水と清浄空気が世界最上位コモディティ。正規流通を寡占する“Air Bank”“Hydro Company” vs. 地域独自通貨 Peach‑coin（水0.5 ℓ相当）。
+テクノロジーレベル : 衛星量子通信・ドローン物流などハイテクと、手作業のスクラップ再生が混植する“サビ色ソーラーパンク”。
+キーコンセプト# ロストテクノロジーの発掘と再利用 資源をめぐる 目に見えない階級戦 “何も起こらない場&#34;こそが営みを支えるステージ 砂と錆とピーチ・クリームソーダの 色彩コントラスト 2. 主要ロケーション# Peach Float Hub# 4基のガスベイ（メタン改質ガス／合成油） ウォーターバルブ兼パイプオルガン状給水塔 24hダイナー（名物 Peach Float &amp; “再生油ジョルトポテト”） コンビニ: 80‑90年代日本カルチャーのごった煮POP（ガチャ筐体、ひらがなロゴ缶ジュース） 周辺ランドマーク# 朽ちた給電風車群 “Broken Farm” 地下熱交換井戸 “Dragonbreath Hole” スクラップヤード “Coyote Hill” 3. 視覚モチーフ &amp; 参考資料# カテゴリ 作品／資料 用途メモ 美術 Edward Hopper「Gas」 / Moebius 作品 荒涼感＋人工灯の孤独 映画 『Mad Max: Fury Road』 / 『Paris, Texas』 サビ色×ネオンサインの対比 文学 Paolo Bacigalupi『The Water Knife』 / Edward Abbey『Desert Solitaire』 乾燥地帯と水資源の物語 日本文化 昭和コンビニ（ローソン初期内装） / 『ドラえもん』秘密道具パロ ノスタルジー×SF 4. 主要キャラクター# Sara Ortez（サラ）# 25 歳・女性／身長 167 cm 都市生まれ。高1夏に家出同然でPeach Floatへ住み込み、10年目。 スキル: DIYメカ修繕、射撃、旧世代アナログレコード収集。 アーク: “動かず世界を待つ”→“世界へ踏み出す”。大学進学の悩みが軸。 A.I.D.A（アイダ）# 型式 MX‑11 汎用アンドロイド／外装マットホワイト＋手描き値札。 自我≒低く「タスク完了＝充足」。サラとの対話ログを機に“疑問”を学習。 Noah Greaves（ノア）# 45 歳・男性／元地熱試掘エンジニア→起業家→軌道居住民。 5年前に店をサラへ譲渡し軌道上アパートへ。作中は手紙のみ登場、だが思想と技術メモが伏線。 （※他: 酔っ払いチェス王“Rook”、用心棒“Bulk”、配送人“Wynn” 等）">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="peach-float">
+    <meta property="article:tag" content="世界観">
+    <meta property="article:tag" content="設定">
+    <meta property="article:tag" content="PeachFloat">
+
+
+  <meta itemprop="name" content="Peach Float - 全体設計書">
+  <meta itemprop="description" content="1. 世界観（AL21 年表＆大気水資源経済）# 時代区分 : AL21─After Lost 21st Century（2070年代前半）
+座標 : 北米大陸中部・旧州間道路沿い。かつて“コーンベルト”と呼ばれた平原が砂漠化した辺縁。
+環境変化 : 平均気温 &#43;2.5 ℃／酸素濃度 –3 %／可視距離を奪う黄砂と光化学スモッグ。
+資源経済 : 水と清浄空気が世界最上位コモディティ。正規流通を寡占する“Air Bank”“Hydro Company” vs. 地域独自通貨 Peach‑coin（水0.5 ℓ相当）。
+テクノロジーレベル : 衛星量子通信・ドローン物流などハイテクと、手作業のスクラップ再生が混植する“サビ色ソーラーパンク”。
+キーコンセプト# ロストテクノロジーの発掘と再利用 資源をめぐる 目に見えない階級戦 “何も起こらない場&#34;こそが営みを支えるステージ 砂と錆とピーチ・クリームソーダの 色彩コントラスト 2. 主要ロケーション# Peach Float Hub# 4基のガスベイ（メタン改質ガス／合成油） ウォーターバルブ兼パイプオルガン状給水塔 24hダイナー（名物 Peach Float &amp; “再生油ジョルトポテト”） コンビニ: 80‑90年代日本カルチャーのごった煮POP（ガチャ筐体、ひらがなロゴ缶ジュース） 周辺ランドマーク# 朽ちた給電風車群 “Broken Farm” 地下熱交換井戸 “Dragonbreath Hole” スクラップヤード “Coyote Hill” 3. 視覚モチーフ &amp; 参考資料# カテゴリ 作品／資料 用途メモ 美術 Edward Hopper「Gas」 / Moebius 作品 荒涼感＋人工灯の孤独 映画 『Mad Max: Fury Road』 / 『Paris, Texas』 サビ色×ネオンサインの対比 文学 Paolo Bacigalupi『The Water Knife』 / Edward Abbey『Desert Solitaire』 乾燥地帯と水資源の物語 日本文化 昭和コンビニ（ローソン初期内装） / 『ドラえもん』秘密道具パロ ノスタルジー×SF 4. 主要キャラクター# Sara Ortez（サラ）# 25 歳・女性／身長 167 cm 都市生まれ。高1夏に家出同然でPeach Floatへ住み込み、10年目。 スキル: DIYメカ修繕、射撃、旧世代アナログレコード収集。 アーク: “動かず世界を待つ”→“世界へ踏み出す”。大学進学の悩みが軸。 A.I.D.A（アイダ）# 型式 MX‑11 汎用アンドロイド／外装マットホワイト＋手描き値札。 自我≒低く「タスク完了＝充足」。サラとの対話ログを機に“疑問”を学習。 Noah Greaves（ノア）# 45 歳・男性／元地熱試掘エンジニア→起業家→軌道居住民。 5年前に店をサラへ譲渡し軌道上アパートへ。作中は手紙のみ登場、だが思想と技術メモが伏線。 （※他: 酔っ払いチェス王“Rook”、用心棒“Bulk”、配送人“Wynn” 等）">
+  <meta itemprop="wordCount" content="567">
+  <meta itemprop="keywords" content="世界観,設定,PeachFloat">
+
+<title>Peach Float - 全体設計書 | cmc</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="/peach-float/world-setting/">
+<link rel="stylesheet" href="/book.min.cc2c524ed250aac81b23d1f4af87344917b325208841feca0968fe450f570575.css" >
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/en.search.min.f88656dc8ea80fe921a59482157abce0b71c7c326d7293a9c4c87da2ad54b8bf.js" ></script>
+
+
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-peach-float">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>cmc</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Search"
+    aria-label="Search"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Blue Moon Madness</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/blue-moon-madness/characters/luna/" class="">
+      ルナ</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a>
+      Peach Float</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/peach-float/world-setting/" class="active">
+      Peach Float - 全体設計書</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Peach Float - 全体設計書</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-世界観al21-年表大気水資源経済">1. 世界観（AL21 年表＆大気水資源経済）</a>
+      <ul>
+        <li><a href="#キーコンセプト">キーコンセプト</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-主要ロケーション">2. 主要ロケーション</a>
+      <ul>
+        <li><a href="#peachfloathub">Peach Float Hub</a></li>
+        <li><a href="#周辺ランドマーク">周辺ランドマーク</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-視覚モチーフ--参考資料">3. 視覚モチーフ &amp; 参考資料</a></li>
+    <li><a href="#4-主要キャラクター">4. 主要キャラクター</a>
+      <ul>
+        <li><a href="#saraortezサラ">Sara Ortez（サラ）</a></li>
+        <li><a href="#aidaアイダ">A.I.D.A（アイダ）</a></li>
+        <li><a href="#noahgreavesノア">Noah Greaves（ノア）</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-ゲストリカーリングキャラサンプル">5. ゲスト／リカーリングキャラ サンプル</a></li>
+    <li><a href="#6-テクノロジー小物ネタ">6. テクノロジー／小物ネタ</a></li>
+    <li><a href="#7-ep-シーズンプランs1全12話">7. Ep. シーズンプラン（S1: 全12話）</a></li>
+    <li><a href="#8-追加ゲストキャラエピソードフック">8. 追加ゲストキャラ・エピソードフック</a></li>
+    <li><a href="#9-peachfloat-建築ゾーニング図テキスト版">9. Peach Float 建築・ゾーニング図（テキスト版）</a></li>
+    <li><a href="#10-大気水経済メカニクス詳細">10. 大気・水経済メカニクス詳細</a></li>
+    <li><a href="#11-シーズン2ラフアウトラインs2全8話予定">11. シーズン2 ラフアウトライン（S2: 全8話予定）</a></li>
+    <li><a href="#12-砂漠モビリティビークルエコロジー">12. 砂漠モビリティ・ビークルエコロジー</a>
+      <ul>
+        <li><a href="#カテゴリ別車両カタログ抜粋">カテゴリ別車両カタログ（抜粋）</a></li>
+        <li><a href="#デザイン指針">デザイン指針</a></li>
+        <li><a href="#物語への接続ポイント">物語への接続ポイント</a></li>
+        <li><a href="#参考ビジュアル資料">参考ビジュアル・資料</a></li>
+      </ul>
+    </li>
+    <li><a href="#13-ビークル絡みの追加ミクロエピソードs1補完">13. ビークル絡みの追加ミクロエピソード（S1補完）</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h2 id="1-世界観al21-年表大気水資源経済">1. 世界観（AL21 年表＆大気水資源経済）<a class="anchor" href="#1-%e4%b8%96%e7%95%8c%e8%a6%b3al21-%e5%b9%b4%e8%a1%a8%e5%a4%a7%e6%b0%97%e6%b0%b4%e8%b3%87%e6%ba%90%e7%b5%8c%e6%b8%88">#</a></h2>
+<p><strong>時代区分</strong> : AL21─After Lost 21st Century（2070年代前半）</p>
+<p><strong>座標</strong> : 北米大陸中部・旧州間道路沿い。かつて“コーンベルト”と呼ばれた平原が砂漠化した辺縁。</p>
+<p><strong>環境変化</strong> : 平均気温 +2.5 ℃／酸素濃度 –3 %／可視距離を奪う黄砂と光化学スモッグ。</p>
+<p><strong>資源経済</strong> : 水と清浄空気が世界最上位コモディティ。正規流通を寡占する“Air Bank”“Hydro Company” vs. 地域独自通貨 <strong>Peach‑coin</strong>（水0.5 ℓ相当）。</p>
+<p><strong>テクノロジーレベル</strong> : 衛星量子通信・ドローン物流などハイテクと、手作業のスクラップ再生が混植する“サビ色ソーラーパンク”。</p>
+<h3 id="キーコンセプト">キーコンセプト<a class="anchor" href="#%e3%82%ad%e3%83%bc%e3%82%b3%e3%83%b3%e3%82%bb%e3%83%97%e3%83%88">#</a></h3>
+<ol>
+<li><strong>ロストテクノロジー</strong>の発掘と再利用</li>
+<li>資源をめぐる <strong>目に見えない階級戦</strong></li>
+<li>&ldquo;何も起こらない場&quot;こそが営みを支えるステージ</li>
+<li>砂と錆とピーチ・クリームソーダの <strong>色彩コントラスト</strong></li>
+</ol>
+<hr>
+<h2 id="2-主要ロケーション">2. 主要ロケーション<a class="anchor" href="#2-%e4%b8%bb%e8%a6%81%e3%83%ad%e3%82%b1%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3">#</a></h2>
+<h3 id="peachfloathub">Peach Float Hub<a class="anchor" href="#peachfloathub">#</a></h3>
+<ul>
+<li>4基のガスベイ（メタン改質ガス／合成油）</li>
+<li>ウォーターバルブ兼パイプオルガン状給水塔</li>
+<li>24hダイナー（名物 <strong>Peach Float</strong> &amp; “再生油ジョルトポテト”）</li>
+<li>コンビニ: 80‑90年代日本カルチャーのごった煮POP（ガチャ筐体、ひらがなロゴ缶ジュース）</li>
+</ul>
+<h3 id="周辺ランドマーク">周辺ランドマーク<a class="anchor" href="#%e5%91%a8%e8%be%ba%e3%83%a9%e3%83%b3%e3%83%89%e3%83%9e%e3%83%bc%e3%82%af">#</a></h3>
+<ul>
+<li>朽ちた給電風車群 <strong>“Broken Farm”</strong></li>
+<li>地下熱交換井戸 <strong>“Dragonbreath Hole”</strong></li>
+<li>スクラップヤード <strong>“Coyote Hill”</strong></li>
+</ul>
+<hr>
+<h2 id="3-視覚モチーフ--参考資料">3. 視覚モチーフ &amp; 参考資料<a class="anchor" href="#3-%e8%a6%96%e8%a6%9a%e3%83%a2%e3%83%81%e3%83%bc%e3%83%95--%e5%8f%82%e8%80%83%e8%b3%87%e6%96%99">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>カテゴリ</th>
+          <th>作品／資料</th>
+          <th>用途メモ</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>美術</td>
+          <td>Edward Hopper「Gas」 / Moebius 作品</td>
+          <td>荒涼感＋人工灯の孤独</td>
+      </tr>
+      <tr>
+          <td>映画</td>
+          <td>『Mad Max: Fury Road』 / 『Paris, Texas』</td>
+          <td>サビ色×ネオンサインの対比</td>
+      </tr>
+      <tr>
+          <td>文学</td>
+          <td>Paolo Bacigalupi『The Water Knife』 / Edward Abbey『Desert Solitaire』</td>
+          <td>乾燥地帯と水資源の物語</td>
+      </tr>
+      <tr>
+          <td>日本文化</td>
+          <td>昭和コンビニ（ローソン初期内装） / 『ドラえもん』秘密道具パロ</td>
+          <td>ノスタルジー×SF</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="4-主要キャラクター">4. 主要キャラクター<a class="anchor" href="#4-%e4%b8%bb%e8%a6%81%e3%82%ad%e3%83%a3%e3%83%a9%e3%82%af%e3%82%bf%e3%83%bc">#</a></h2>
+<h3 id="saraortezサラ">Sara Ortez（サラ）<a class="anchor" href="#saraortez%e3%82%b5%e3%83%a9">#</a></h3>
+<ul>
+<li><strong>25 歳・女性／身長 167 cm</strong></li>
+<li>都市生まれ。高1夏に家出同然でPeach Floatへ住み込み、10年目。</li>
+<li>スキル: DIYメカ修繕、射撃、旧世代アナログレコード収集。</li>
+<li>アーク: <strong>“動かず世界を待つ”→“世界へ踏み出す”</strong>。大学進学の悩みが軸。</li>
+</ul>
+<h3 id="aidaアイダ">A.I.D.A（アイダ）<a class="anchor" href="#aida%e3%82%a2%e3%82%a4%e3%83%80">#</a></h3>
+<ul>
+<li>型式 <strong>MX‑11 汎用アンドロイド</strong>／外装マットホワイト＋手描き値札。</li>
+<li>自我≒低く「タスク完了＝充足」。サラとの対話ログを機に“疑問”を学習。</li>
+</ul>
+<h3 id="noahgreavesノア">Noah Greaves（ノア）<a class="anchor" href="#noahgreaves%e3%83%8e%e3%82%a2">#</a></h3>
+<ul>
+<li><strong>45 歳・男性</strong>／元地熱試掘エンジニア→起業家→軌道居住民。</li>
+<li>5年前に店をサラへ譲渡し軌道上アパートへ。作中は手紙のみ登場、だが思想と技術メモが伏線。</li>
+</ul>
+<p>（※他: 酔っ払いチェス王“Rook”、用心棒“Bulk”、配送人“Wynn” 等）</p>
+<hr>
+<h2 id="5-ゲストリカーリングキャラサンプル">5. ゲスト／リカーリングキャラ サンプル<a class="anchor" href="#5-%e3%82%b2%e3%82%b9%e3%83%88%e3%83%aa%e3%82%ab%e3%83%bc%e3%83%aa%e3%83%b3%e3%82%b0%e3%82%ad%e3%83%a3%e3%83%a9%e3%82%b5%e3%83%b3%e3%83%97%e3%83%ab">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>ランク</th>
+          <th>名前 / 肩書</th>
+          <th>初登場 Ep.</th>
+          <th>キャラ要点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>★</td>
+          <td><strong>Reed &ldquo;Rook&rdquo; Johansen</strong> / チェス世界王者</td>
+          <td>02</td>
+          <td>旧軍AIと賭けチェス。敗者は空気タンク支払い</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Mira &amp; Patch / ヒッピー旅カップル</td>
+          <td>08</td>
+          <td>DIYソーラーヴァンで各地の水源情報を交換</td>
+      </tr>
+      <tr>
+          <td>★</td>
+          <td>“Cloudline” Crew / 上空クルーズ富豪団</td>
+          <td>04</td>
+          <td>空気を浪費する特権象徴。貴族趣味の対比</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>J‑Jack / 日焼け嫌いプロゲーマー</td>
+          <td>09</td>
+          <td>屋外VR決勝で“影”の価値を知る</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Motley Cirque / 旅サーカス一座</td>
+          <td>05</td>
+          <td>解体寸前ロボとPeach Floatで舞う“Rust Ballet”</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Ruth &amp; Ben / 老夫婦ロードトリッパー</td>
+          <td>07</td>
+          <td>水戦争前夜の想い出を語る</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="6-テクノロジー小物ネタ">6. テクノロジー／小物ネタ<a class="anchor" href="#6-%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc%e5%b0%8f%e7%89%a9%e3%83%8d%e3%82%bf">#</a></h2>
+<ul>
+<li><strong>ミニ青空(アオゾラ)</strong> ─ ポケットサイズ大気清浄器（稼働30 分）。</li>
+<li><strong>ANABAS‑Gate</strong> ─ 簡易ポータル装置（誤差±3 mで埋没事故多発）。</li>
+<li><strong>Peach‑coin</strong> ─ NFC対応貝殻型トークン、地域共通通貨。</li>
+<li>投影型オンラインチェス盤“Light‑Board”。</li>
+</ul>
+<hr>
+<h2 id="7-ep-シーズンプランs1全12話">7. Ep. シーズンプラン（S1: 全12話）<a class="anchor" href="#7-ep-%e3%82%b7%e3%83%bc%e3%82%ba%e3%83%b3%e3%83%97%e3%83%a9%e3%83%b3s1%e5%85%a812%e8%a9%b1">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>#</th>
+          <th>仮タイトル EN / JP</th>
+          <th>概要</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>01</td>
+          <td>“Breath Tax” / 空気税の朝</td>
+          <td>エアバンク徴税官 vs. Sara。店を守る序章</td>
+      </tr>
+      <tr>
+          <td>02</td>
+          <td>“Pawn &amp; Peach” / ポーンとピーチ</td>
+          <td>Rookと賭けチェス、AIDAが不正を指摘</td>
+      </tr>
+      <tr>
+          <td>03</td>
+          <td>“Water Heist 45 °C”</td>
+          <td>盗水団襲撃。旧型ロボと即席タッグ</td>
+      </tr>
+      <tr>
+          <td>04</td>
+          <td>“Cloudline Mirage”</td>
+          <td>富豪ツアーの浪費と庶民祭りの対比</td>
+      </tr>
+      <tr>
+          <td>05</td>
+          <td>“Rust Ballet”</td>
+          <td>Motley Cirque、壊れたロボのダンス</td>
+      </tr>
+      <tr>
+          <td>06</td>
+          <td>“Night Biters” / 夜食ハンターズ</td>
+          <td>深夜客ラッシュとSaraの願書DL</td>
+      </tr>
+      <tr>
+          <td>07</td>
+          <td>“Dust &amp; Vinyl”</td>
+          <td>LP発掘がノアの過去を示唆</td>
+      </tr>
+      <tr>
+          <td>08</td>
+          <td>“Dragonbreath Diver”</td>
+          <td>地熱井戸事故とヒッピーの救助</td>
+      </tr>
+      <tr>
+          <td>09</td>
+          <td>“No‑Shadow Gamer”</td>
+          <td>VR大会、電力不足で屋外決勝へ</td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>“Lost Color Photo”</td>
+          <td>幻の青空写真が現像される</td>
+      </tr>
+      <tr>
+          <td>11</td>
+          <td>“Letter‑11”</td>
+          <td>ノアからの手紙障害。皆で記憶を紡ぐ</td>
+      </tr>
+      <tr>
+          <td>12</td>
+          <td>“Just Peach Float” / ただここに在る</td>
+          <td>Saraの進路決定。変わらぬ日常で幕</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<hr>
+<h2 id="8-追加ゲストキャラエピソードフック">8. 追加ゲストキャラ・エピソードフック<a class="anchor" href="#8-%e8%bf%bd%e5%8a%a0%e3%82%b2%e3%82%b9%e3%83%88%e3%82%ad%e3%83%a3%e3%83%a9%e3%82%a8%e3%83%94%e3%82%bd%e3%83%bc%e3%83%89%e3%83%95%e3%83%83%e3%82%af">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>ランク</th>
+          <th>名前 / 肩書</th>
+          <th>初登場 Ep.</th>
+          <th>キャラ要点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>★</td>
+          <td><strong>Helix &amp; Nova</strong> / 建設業の兄弟職人</td>
+          <td>03</td>
+          <td>砂漠に“雲霧発生塔”を建設する仕事で立寄り。即興クレーンバトルが水泥棒と衝突</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Dr. Selene Quill / 地質考古学者</td>
+          <td>06</td>
+          <td>化石化した雨水鉱脈の調査。ロストテクノロジー地図をSaraへ残す</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Prof. Arlo Finch / 生物学者</td>
+          <td>08</td>
+          <td>絶滅危惧の苔をサンプル採取。AIDAに生命価値を語る</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td><strong>Echo &amp; Lux</strong> / 旅するインスタグラマー&amp;フォトグラファー</td>
+          <td>05</td>
+          <td>砂漠に“消えた虹”を探す。SNSライブが盗水団に利用され事件勃発</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Aya &amp; Leo / 新婚カップル</td>
+          <td>10</td>
+          <td>青空写真と“永遠の誓い”をリンク。Peach‑coin指輪交換</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Lady Sable &amp; Duke Mason / 余生を巡礼する老夫婦</td>
+          <td>07</td>
+          <td>若き日のノアとの縁を語りつつ最後のロードトリップ</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td><strong>Nimbus Cruiser</strong> / 地上の雲海ツアー船の一行</td>
+          <td>04</td>
+          <td>“空気の味”テイスティング会を開催。資源倫理議論</td>
+      </tr>
+      <tr>
+          <td></td>
+          <td>Lune d’Argent Troupe / 旅サーカス</td>
+          <td>05</td>
+          <td>ロボットアクロバット“Rust Ballet”を再演。スクラップと芸術の融合</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="9-peachfloat-建築ゾーニング図テキスト版">9. Peach Float 建築・ゾーニング図（テキスト版）<a class="anchor" href="#9-peachfloat-%e5%bb%ba%e7%af%89%e3%82%be%e3%83%bc%e3%83%8b%e3%83%b3%e3%82%b0%e5%9b%b3%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88%e7%89%88">#</a></h2>
+<ol>
+<li><strong>Surface Deck (0 m)</strong> — ガスベイ×4／車寄せ／太陽追尾型ソーラーシェード。</li>
+<li><strong>Main Floor (+1 m)</strong> — ダイナー24席・カウンター6席／レトロ冷蔵ショーケース／Juke‑VR機。</li>
+<li><strong>Convenience Bay (+1 m)</strong> — AISLE‑01 雑誌・漫画／AISLE‑02 再生食品パック／AISLE‑03 日用ロボ部品。</li>
+<li><strong>Sub‑Basement (–3 m)</strong> — 水循環フィルター・貯蔵タンク6 kL／予備空気ボンベ庫。</li>
+<li><strong>Roof Garden (+6 m)</strong> — 水耕ピーチ畑／小型風力タービン／サラの観測デッキ。</li>
+</ol>
+<blockquote class='book-hint '>
+<p>設計哲学: &ldquo;Resource in Plain Sight&rdquo; — 資源インフラを丸見えにして価値を可視化。</p></blockquote><hr>
+<h2 id="10-大気水経済メカニクス詳細">10. 大気・水経済メカニクス詳細<a class="anchor" href="#10-%e5%a4%a7%e6%b0%97%e6%b0%b4%e7%b5%8c%e6%b8%88%e3%83%a1%e3%82%ab%e3%83%8b%e3%82%af%e3%82%b9%e8%a9%b3%e7%b4%b0">#</a></h2>
+<ul>
+<li><strong>Breath Tax</strong> = 1 Peach‑coin／1 m³（清浄度70 %基準）。課税官は携帯レーザー分光器で計測。</li>
+<li><strong>Hydro Quota</strong> = 日常1人4 ℓ無課税。越えると従量課金＋抽選制サプリメント水（ミネラル補填）。</li>
+<li><strong>Black Fog Market</strong> — 廃バンカーで開催される空気・水の闇市。AIDAが匿名ログで情報取得。</li>
+</ul>
+<hr>
+<h2 id="11-シーズン2ラフアウトラインs2全8話予定">11. シーズン2 ラフアウトライン（S2: 全8話予定）<a class="anchor" href="#11-%e3%82%b7%e3%83%bc%e3%82%ba%e3%83%b32%e3%83%a9%e3%83%95%e3%82%a2%e3%82%a6%e3%83%88%e3%83%a9%e3%82%a4%e3%83%b3s2%e5%85%a88%e8%a9%b1%e4%ba%88%e5%ae%9a">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>#</th>
+          <th>仮タイトル</th>
+          <th>主題</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>01</td>
+          <td>“Fog Lottery”</td>
+          <td>SaraがHydro Quota抽選に当たり都市招待へ</td>
+      </tr>
+      <tr>
+          <td>02</td>
+          <td>“Rust &amp; Roots”</td>
+          <td>Broken Farm地下に眠るロストテクノロジー種子</td>
+      </tr>
+      <tr>
+          <td>03</td>
+          <td>“Cloud Pirates”</td>
+          <td>クルーズ船から空気タンクが強奪され協力捜査</td>
+      </tr>
+      <tr>
+          <td>04</td>
+          <td>“Peach‑byte”</td>
+          <td>ハッカー来店。AIDAの自我拡張ウイルス事件</td>
+      </tr>
+      <tr>
+          <td>05</td>
+          <td>“Sahara Vinyl”</td>
+          <td>砂塵に埋もれたレコードプレス工場を復活</td>
+      </tr>
+      <tr>
+          <td>06</td>
+          <td>“Letter‑22”</td>
+          <td>ノアからの暗号化指令。軌道都市の陰謀浮上</td>
+      </tr>
+      <tr>
+          <td>07</td>
+          <td>“Desert Graduation”</td>
+          <td>Saraが進学か店継続か最終決断</td>
+      </tr>
+      <tr>
+          <td>08</td>
+          <td>“Float to Orbit”</td>
+          <td>軌道エレベータープロト試運転。Peach Floatが舞台のまま終幕</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="12-砂漠モビリティビークルエコロジー">12. 砂漠モビリティ・ビークルエコロジー<a class="anchor" href="#12-%e7%a0%82%e6%bc%a0%e3%83%a2%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3%e3%83%93%e3%83%bc%e3%82%af%e3%83%ab%e3%82%a8%e3%82%b3%e3%83%ad%e3%82%b8%e3%83%bc">#</a></h2>
+<p>砂と錆で覆われた大地を行き交う車両は、そのまま資源流通と階級構造の縮図であり、環境テリングの核心要素となる。</p>
+<h3 id="カテゴリ別車両カタログ抜粋">カテゴリ別車両カタログ（抜粋）<a class="anchor" href="#%e3%82%ab%e3%83%86%e3%82%b4%e3%83%aa%e5%88%a5%e8%bb%8a%e4%b8%a1%e3%82%ab%e3%82%bf%e3%83%ad%e3%82%b0%e6%8a%9c%e7%b2%8b">#</a></h3>
+<table>
+  <thead>
+      <tr>
+          <th>種別</th>
+          <th>通称 / 型式</th>
+          <th>定員・積載</th>
+          <th>動力・特徴</th>
+          <th>物語的役割</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>補給輸送</td>
+          <td><strong>CamelTrain C‑880</strong> （通称キャメルトレイン）</td>
+          <td>2+遠隔AI / 60 t</td>
+          <td>バイオメタンハイブリッド＋サイドソーラーブラインド。荷台はモジュラーパレット。</td>
+          <td>週1回Peach Floatへ寄港。物資の生命線。コンボイ強盗と衝突する回あり。</td>
+      </tr>
+      <tr>
+          <td>水運搬専用</td>
+          <td><strong>Hydra Lorry Mk Ⅱ</strong></td>
+          <td>1+ドローンCo‑pilot / 40 kL 水</td>
+          <td>低速高トルク電動＋蒸発防止断熱ポリ。車体側面に水位ゲージ。</td>
+          <td>エピ03「Water Heist」で標的。救出作戦に。</td>
+      </tr>
+      <tr>
+          <td>観光</td>
+          <td><strong>Sunwinder LR‑2</strong> 砂漠遊覧バス</td>
+          <td>36 (2階建)</td>
+          <td>太陽追尾式パラボラパネル＋液体窒素空調。フルパノラマガラスは自動遮光。</td>
+          <td>エピ04で“Cloudline”富豪客を乗せ来訪。贅沢な空気浪費の象徴。</td>
+      </tr>
+      <tr>
+          <td>公共移動</td>
+          <td><strong>DustLink Shuttle</strong> 地域連絡バス</td>
+          <td>12</td>
+          <td>リサイクル油燃焼＋風力補助カイト。停留所は風車を転用した「風標」。</td>
+          <td>ローカル住民の足。Saraが都市願書を出す際に利用。</td>
+      </tr>
+      <tr>
+          <td>商用作業</td>
+          <td><strong>Crane‑Crawler HN‑7</strong> 建設用履帯車</td>
+          <td>3</td>
+          <td>地熱チャージ＋油圧クレーン。乗降ブームがまるで首長竜。</td>
+          <td>Helix &amp; Nova登場回でスクラップ戦。</td>
+      </tr>
+      <tr>
+          <td>家族自家用</td>
+          <td><strong>Retro Nomad</strong> カスタムサンドバン</td>
+          <td>4‑6</td>
+          <td>旧VWバス電動換装＋屋根ソーラー。車体落書き多数。</td>
+          <td>ヒッピーカップルや旅芸人など多用途。Peach Float駐車場の常連。</td>
+      </tr>
+      <tr>
+          <td>特権車両</td>
+          <td><strong>AirBank Vault‑Rig</strong> 装甲輸送車</td>
+          <td>4+セキュリティドローン</td>
+          <td>水冷燃料電池＋衝撃吸収ホバー脚。車内に小型クリーンルーム。</td>
+          <td>Stateエピで“Breath Tax”徴収隊。民衆の怒りと恐怖の的。</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="デザイン指針">デザイン指針<a class="anchor" href="#%e3%83%87%e3%82%b6%e3%82%a4%e3%83%b3%e6%8c%87%e9%87%9d">#</a></h3>
+<ol>
+<li><strong>サビ色ソーラーパンク / パッチワーク美学</strong> — 省エネ塗料の上から重ね塗りされた広告、抗UV布。</li>
+<li><strong>サンドスカート &amp; タイヤチェーン</strong> — 砂噛みを防ぎつつスチームで微振動、自己除塵。</li>
+<li><strong>資源を可視化</strong> — タンクの水位、空気圧縮シリンダーが外装に露出し価値を強調。</li>
+<li><strong>アクセサリ的ガジェット</strong> — 簡易日陰テントドローン“Shade‑Bee”、移動式凝結塔“Fog‑Tongue”。</li>
+</ol>
+<h3 id="物語への接続ポイント">物語への接続ポイント<a class="anchor" href="#%e7%89%a9%e8%aa%9e%e3%81%b8%e3%81%ae%e6%8e%a5%e7%b6%9a%e3%83%9d%e3%82%a4%e3%83%b3%e3%83%88">#</a></h3>
+<ul>
+<li><strong>社会階層の移動舞台</strong>: Sunwinder=上流、DustLink=大衆、Retro Nomad=自由民、Vault‑Rig=権力。車両内部での会話が階級意識を可視化。</li>
+<li><strong>ロストテクノロジー発掘</strong>: Crane‑Crawlerの油圧シリンダに旧世界コード。AIDAが解析→サブプロット。</li>
+<li><strong>Peach Floatの“角”</strong>: ガス／水タンクのドック機能を持つことで、各種車両が自然に集まりクロスオーバー。</li>
+</ul>
+<h3 id="参考ビジュアル資料">参考ビジュアル・資料<a class="anchor" href="#%e5%8f%82%e8%80%83%e3%83%93%e3%82%b8%e3%83%a5%e3%82%a2%e3%83%ab%e8%b3%87%e6%96%99">#</a></h3>
+<ul>
+<li>『Sorcerer』（1977）のトラック改造描写</li>
+<li>『DUNE』の砂上オーニソプター着陸脚</li>
+<li>沙漠観光バス「Caminos del Desierto」（アルゼンチン）現地写真</li>
+<li>Low‑polyソーラーパンクアート @nataliefoss</li>
+</ul>
+<hr>
+<h2 id="13-ビークル絡みの追加ミクロエピソードs1補完">13. ビークル絡みの追加ミクロエピソード（S1補完）<a class="anchor" href="#13-%e3%83%93%e3%83%bc%e3%82%af%e3%83%ab%e7%b5%a1%e3%81%bf%e3%81%ae%e8%bf%bd%e5%8a%a0%e3%83%9f%e3%82%af%e3%83%ad%e3%82%a8%e3%83%94%e3%82%bd%e3%83%bc%e3%83%89s1%e8%a3%9c%e5%ae%8c">#</a></h2>
+<table>
+  <thead>
+      <tr>
+          <th>追補Ep</th>
+          <th>シーン概要</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>02‑B</td>
+          <td>CamelTrainの積み荷からドラえもんパロディの“空気砲”発見。子供客大騒ぎ。</td>
+      </tr>
+      <tr>
+          <td>05‑C</td>
+          <td>Motley CirqueのRetro Nomadが故障。Saraが応急修理し友情が芽生える。</td>
+      </tr>
+      <tr>
+          <td>06‑A</td>
+          <td>夜食ハンターズがDustLink車内で即席ラーメン。水の贅沢使いを咎められる。</td>
+      </tr>
+      <tr>
+          <td>11‑D</td>
+          <td>Vault‑Rig強制徴収でPeach Float封鎖。客たちが車両バリケードを作る。</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<p><strong>End of v0.3</strong></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+  
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/blue-moon-madness/characters/luna/" class="flex align-center">
+        <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>ルナ</span>
+      </a>
+    
+    </span>
+    <span>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-世界観al21-年表大気水資源経済">1. 世界観（AL21 年表＆大気水資源経済）</a>
+      <ul>
+        <li><a href="#キーコンセプト">キーコンセプト</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-主要ロケーション">2. 主要ロケーション</a>
+      <ul>
+        <li><a href="#peachfloathub">Peach Float Hub</a></li>
+        <li><a href="#周辺ランドマーク">周辺ランドマーク</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-視覚モチーフ--参考資料">3. 視覚モチーフ &amp; 参考資料</a></li>
+    <li><a href="#4-主要キャラクター">4. 主要キャラクター</a>
+      <ul>
+        <li><a href="#saraortezサラ">Sara Ortez（サラ）</a></li>
+        <li><a href="#aidaアイダ">A.I.D.A（アイダ）</a></li>
+        <li><a href="#noahgreavesノア">Noah Greaves（ノア）</a></li>
+      </ul>
+    </li>
+    <li><a href="#5-ゲストリカーリングキャラサンプル">5. ゲスト／リカーリングキャラ サンプル</a></li>
+    <li><a href="#6-テクノロジー小物ネタ">6. テクノロジー／小物ネタ</a></li>
+    <li><a href="#7-ep-シーズンプランs1全12話">7. Ep. シーズンプラン（S1: 全12話）</a></li>
+    <li><a href="#8-追加ゲストキャラエピソードフック">8. 追加ゲストキャラ・エピソードフック</a></li>
+    <li><a href="#9-peachfloat-建築ゾーニング図テキスト版">9. Peach Float 建築・ゾーニング図（テキスト版）</a></li>
+    <li><a href="#10-大気水経済メカニクス詳細">10. 大気・水経済メカニクス詳細</a></li>
+    <li><a href="#11-シーズン2ラフアウトラインs2全8話予定">11. シーズン2 ラフアウトライン（S2: 全8話予定）</a></li>
+    <li><a href="#12-砂漠モビリティビークルエコロジー">12. 砂漠モビリティ・ビークルエコロジー</a>
+      <ul>
+        <li><a href="#カテゴリ別車両カタログ抜粋">カテゴリ別車両カタログ（抜粋）</a></li>
+        <li><a href="#デザイン指針">デザイン指針</a></li>
+        <li><a href="#物語への接続ポイント">物語への接続ポイント</a></li>
+        <li><a href="#参考ビジュアル資料">参考ビジュアル・資料</a></li>
+      </ul>
+    </li>
+    <li><a href="#13-ビークル絡みの追加ミクロエピソードs1補完">13. ビークル絡みの追加ミクロエピソード（S1補完）</a></li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

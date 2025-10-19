@@ -1,0 +1,7 @@
+baseURL = '/'
+languageCode = 'ja'
+title = 'cmc'
+theme = "hugo-book"
+
+[params]
+  BookSection = "*"
