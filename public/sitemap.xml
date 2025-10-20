@@ -2,12 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blue-moon-madness/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/peach-float/</loc>
-  </url><url>
     <loc>//localhost:1313/tags/act1/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/junk-punk-city/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/junkpunkcity/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/%E7%AC%AC1%E8%A9%B1/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/junk-punk-city/episodes/episode-01/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/%E7%AC%AC2%E8%A9%B1/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/junk-punk-city/episodes/episode-02/</loc>
+    <lastmod>2025-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/blue-moon-madness/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/bluemoonmadness/</loc>
@@ -16,10 +38,10 @@
     <loc>//localhost:1313/blue-moon-madness/characters/%E3%82%B8%E3%83%A7%E3%83%8B%E3%83%BC/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/se/</loc>
+    <loc>//localhost:1313/junk-punk-city/episodes/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>//localhost:1313/tags/se/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blue-moon-madness/characters/watson/</loc>
@@ -38,6 +60,9 @@
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/%E3%82%B2%E3%82%B9%E3%83%88%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8B/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/%E3%82%B5%E3%82%A6%E3%83%8A/</loc>
@@ -62,9 +87,6 @@
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/blue-moon-madness/kousei/</loc>
-    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/%E3%83%9E%E3%83%8D%E3%82%BF%E3%82%A4%E3%82%BA/</loc>
@@ -97,10 +119,10 @@
     <loc>//localhost:1313/tags/%E7%9B%B8%E6%A3%92/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/%E7%AC%AC1%E8%A9%B1/</loc>
+    <loc>//localhost:1313/blue-moon-madness/episodes/episode-01/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/blue-moon-madness/episodes/episode-01/</loc>
+    <loc>//localhost:1313/blue-moon-madness/episodes/episode-02/</loc>
     <lastmod>2025-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/junk-punk-city/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC%E7%B4%A0%E6%A1%88/</loc>
@@ -117,9 +139,7 @@
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/junk-punk-city/</loc>
-  </url><url>
-    <loc>//localhost:1313/tags/junkpunkcity/</loc>
+    <loc>//localhost:1313/peach-float/</loc>
   </url><url>
     <loc>//localhost:1313/peach-float/world-setting/</loc>
   </url><url>

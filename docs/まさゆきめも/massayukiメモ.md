@@ -7,3 +7,8 @@
 
 このディレクトリの素案をwiki構造化するために、整えたい
 /Users/nakayamamasayuki/Documents/GitHub/cmc/content/junk punk city
+
+フォルダにspaceが入ってしまったためか、リネームができません
+D:\github\cmc\content\junk punk city
+
+

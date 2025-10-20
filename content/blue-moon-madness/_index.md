@@ -5,8 +5,6 @@ date: 2025-01-20
 tags: ["Webtoon", "ヒューマンドラマ", "ギャグ"]
 category: "プロジェクト"
 project: "ブルームーンマッドネス"
-menu: main
-weight: 10
 ---
 
 # Blue Moon Madness
