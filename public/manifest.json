@@ -1,6 +1,6 @@
 {
-  "name": "cmc",
-  "short_name": "cmc",
+  "name": "CMC - クリエイティブメディアコレクション",
+  "short_name": "CMC - クリエイティブメディアコレクション",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

@@ -1,6 +1,10 @@
 ---
 title: "トーコ"
+description: "26歳の天才エンジニア。コミュ障だがサウナでだけ人と会話できる特殊なキャラクター。CLIとJohnyを相棒とする"
+date: 2025-01-20
 tags: ["メインキャラクター", "SE", "BlueMoonMadness"]
+category: "キャラクター"
+project: "ブルームーンマッドネス"
 character:
   age: 26
   role: "主人公 / 語り手"

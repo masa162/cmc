@@ -1,6 +1,10 @@
 ---
 title: "Watson"
+description: "謎のオンライン発注者。機械翻訳っぽい文体でハードボイルド調のメッセージを送るミステリアスな存在"
+date: 2025-01-20
 tags: ["メインキャラクター", "発注者", "BlueMoonMadness"]
+category: "キャラクター"
+project: "ブルームーンマッドネス"
 character:
   age: "不明"
   role: "謎のオンライン発注者"

@@ -1,7 +1,70 @@
 baseURL = '/'
 languageCode = 'ja'
-title = 'cmc'
+title = 'CMC - クリエイティブメディアコレクション'
 theme = "hugo-book"
 
 [params]
   BookSection = "*"
+  BookRepo = "https://github.com/yourusername/cmc"
+  BookEditPath = "edit/main/content"
+  
+[menu]
+  # Blue Moon Madness メニュー
+  [[menu.main]]
+    name = "Blue Moon Madness"
+    url = "/blue-moon-madness/"
+    weight = 10
+  
+  [[menu.main]]
+    name = "構成・設定"
+    url = "/blue-moon-madness/kousei/"
+    parent = "Blue Moon Madness"
+    weight = 11
+  
+  [[menu.main]]
+    name = "制作方針"
+    url = "/blue-moon-madness/方針/"
+    parent = "Blue Moon Madness"
+    weight = 12
+  
+  [[menu.main]]
+    name = "キャラクター"
+    url = "/blue-moon-madness/characters/"
+    parent = "Blue Moon Madness"
+    weight = 13
+  
+  [[menu.main]]
+    name = "エピソード"
+    url = "/blue-moon-madness/episodes/"
+    parent = "Blue Moon Madness"
+    weight = 14
+  
+  # Junk Punk City メニュー
+  [[menu.main]]
+    name = "Junk Punk City"
+    url = "/junk-punk-city/"
+    weight = 20
+  
+  [[menu.main]]
+    name = "キャラクター"
+    url = "/junk-punk-city/characters/"
+    parent = "Junk Punk City"
+    weight = 21
+  
+  [[menu.main]]
+    name = "世界観"
+    url = "/junk-punk-city/都市設定/"
+    parent = "Junk Punk City"
+    weight = 22
+  
+  # Peach Float メニュー
+  [[menu.main]]
+    name = "Peach Float"
+    url = "/peach-float/"
+    weight = 30
+  
+  [[menu.main]]
+    name = "世界設定"
+    url = "/peach-float/world-setting/"
+    parent = "Peach Float"
+    weight = 31

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>生物 on cmc</title>
+    <title>生物 on CMC - クリエイティブメディアコレクション</title>
     <link>//localhost:1313/tags/%E7%94%9F%E7%89%A9/</link>
-    <description>Recent content in 生物 on cmc</description>
+    <description>Recent content in 生物 on CMC - クリエイティブメディアコレクション</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <atom:link href="//localhost:1313/tags/%E7%94%9F%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
@@ -12,7 +12,7 @@
       <link>//localhost:1313/junk-punk-city/characters/data-eater/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/junk-punk-city/characters/data-eater/</guid>
-      <description>&lt;h2 id=&#34;データ噬み-データガミ--data-eater&#34;&gt;データ噬み (データガミ) / Data-Eater&lt;a class=&#34;anchor&#34; href=&#34;#%e3%83%87%e3%83%bc%e3%82%bf%e5%99%ac%e3%81%bf-%e3%83%87%e3%83%bc%e3%82%bf%e3%82%ac%e3%83%9f--data-eater&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;下層・澱区の汚染された環境に適応し、電子廃棄物やデータケーブルを食べて繁殖する、青白く発光する菌類（あるいは苔）。&lt;/p&gt;&#xA;&lt;p&gt;時折、重要なデータを「捕食」してシステム障害を引き起こす厄介者だが、澱区の住人はその発光を照明代わりに利用している。稀に、食べたデータを不完全に再生・投影することがあり、過去の情報の断片（ゴースト）を垣間見せる。&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;データ噬み-データガミ--data-eater&#34;&gt;データ噬み (データガミ) / Data-Eater&lt;a class=&#34;anchor&#34; href=&#34;#%e3%83%87%e3%83%bc%e3%82%bf%e5%99%ac%e3%81%bf-%e3%83%87%e3%83%bc%e3%82%bf%e3%82%ac%e3%83%9f--data-eater&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;下層・澱区の汚染された環境に適応し、電子廃棄物やデータケーブルを食べて繁殖する、青白く発光する菌類（あるいは苔）。&lt;/p&gt;&#xA;&lt;p&gt;時折、重要なデータを「捕食」してシステム障害を引き起こす厄介者だが、澱区の住人はその発光を照明代わりに利用している。稀に、食べたデータを不完全に再生・投影することがあり、過去の情報の断片（ゴースト）を垣間見せる。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
