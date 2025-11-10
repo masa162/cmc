@@ -1,14 +1,46 @@
-/Users/nakayamamasayuki/Documents/GitHub/cmc/docs/junk punk city
-に素案を用意しました。
+CMCをコミック用途として活用できています、
+さらに活用を深めていくために考えています。
 
-/Users/nakayamamasayuki/Documents/GitHub/cmc/content/blue-moon-madness
-このディレクトリを参考にwiki化構造化
-整理お願いします
+1. web化
+今、hugoでローカルで動かす、wikiとして活用しています、
+長期的に使っていくなら、動的なSSG化、管理画面をつけて、DBにテキストコンテンツを持てるようにして、ブラウザから更新していけるようにするか、
 
-このディレクトリの素案をwiki構造化するために、整えたい
-/Users/nakayamamasayuki/Documents/GitHub/cmc/content/junk punk city
+しかし、一方で、ローカルでjamスタックでmdファイルを直接管理することで、cursorなどローカルのAIエディタとの協業はローカルでこその編集力だなと効果を実感しています。
+このトレードオフでしょうか？
 
-フォルダにspaceが入ってしまったためか、リネームができません
-D:\github\cmc\content\junk punk city
+2. タイトル単位で分ける
+複数タイトルができている。
+hugoの左エリアにエピソード、キャラクターなど項目を見やすくするため、見出し化、分類化しているけど、
+「Junk Punk City 」「Blue moon Madness」,,
+とタイトルが増えていくと、見渡しが悪くなる、
+
+タイトルごとにこれらを分けようと思う。
+
+現状の要望から考えると、
+hugoをテーマ化しておく、
+タイトルが増えたら
+次回は、なるべくディレクトリをコンテンツに絞って管理できるように、
+水平展開しやすいようにする
+
+といいのかなと考えています
+
+hugoのSSGの部分を切り分けるような方法がいいのでしょうか？
+
+新規レポジトリを作成しました。
+https://github.com/masa162/cmc-hugo-theme
+
+クロンしてあります。
+/Users/nakayamamasayuki/Documents/github/cmc-hugo-theme
+
+提案を採用します。
+まず、要件定義書を
+/Users/nakayamamasayuki/Documents/github/cmc-hugo-theme
+に出力お願いします
 
 
+themaがわかれていることで、SSG部分のメンテナンスとかは、
+CMC-hugo-theam
+を管理すればいいのでしょうか？
+
+各マンガサイトはどのように、テーマをよんでいるの？
+URLでAPI的にではなさそうですよね。
